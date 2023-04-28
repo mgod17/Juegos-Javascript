@@ -1,0 +1,103 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Press Start 2P', cursive;
+    color: #fff;
+    background-color: #1d1d1d;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #00ffbf;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Estilos para el header */
+  header {
+    background-color: #000;
+    padding: 20px 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .logo {
+    font-size: 2rem;
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  nav a {
+    font-size: 1.2rem;
+  }
+  
+  /* Estilos para el main */
+  .section-title {
+    font-size: 2.5rem;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card {
+    width: calc(33.33% - 20px);
+    margin-bottom: 40px;
+    background-color: #252525;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-info {
+    padding: 20px;
+  }
+  
+  .card-info h3 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  .card-info p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .card-info a {
+    display: block;
+    background-color: #00ffbf;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card-info a:hover {
+    background-color: #00e6ac;
+  }
